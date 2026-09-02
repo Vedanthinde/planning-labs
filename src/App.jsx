@@ -1526,10 +1526,13 @@ function App() {
                 capabilities together under one roof.
               </p>
 
-              <button className="outline-button">
-                Discover Planning Labs{" "}
-                <Arrow />
-              </button>
+              <button
+  className="outline-button"
+  onClick={() => scrollToSection("about")}
+>
+  Discover Planning Labs{" "}
+  <Arrow />
+</button>
             </div>
           </div>
         </section>
@@ -2425,15 +2428,24 @@ function App() {
 
       {/* FLOATING WHATSAPP */}
       <a
-        className="whatsapp-button"
-        href="https://wa.me/919999999999"
-        target="_blank"
-        rel="noreferrer"
-        onClick={trackWhatsAppClick}
-        aria-label="Chat on WhatsApp"
-      >
-        <span>◔</span>
-      </a>
+  className="whatsapp-button"
+  href="https://wa.me/919999999999"
+  target="_blank"
+  rel="noreferrer"
+  onClick={trackWhatsAppClick}
+  aria-label="Chat on WhatsApp"
+>
+  <svg
+    viewBox="0 0 32 32"
+    aria-hidden="true"
+    focusable="false"
+  >
+    <path
+      fill="currentColor"
+      d="M16 2.5A13.5 13.5 0 0 0 4.34 22.82L2.5 29.5l6.87-1.8A13.5 13.5 0 1 0 16 2.5Zm0 24.6a11.1 11.1 0 0 1-5.66-1.55l-.4-.24-4.08 1.07 1.09-3.97-.26-.41A11.1 11.1 0 1 1 16 27.1Zm6.08-8.2c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.25-.71.08-.33-.17-1.39-.51-2.65-1.63-.98-.87-1.64-1.94-1.83-2.27-.19-.33-.02-.51.14-.68.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.58-.08-.17-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.58.08-.88.41-.3.33-1.15 1.12-1.15 2.73s1.18 3.17 1.34 3.39c.16.22 2.32 3.54 5.62 4.96.79.34 1.41.54 1.89.69.79.25 1.51.21 2.08.13.63-.09 1.95-.8 2.23-1.57.27-.77.27-1.43.19-1.57-.08-.14-.3-.22-.63-.39Z"
+    />
+  </svg>
+</a>
 
       {/* SEARCH */}
       {searchOpen && (
