@@ -1450,10 +1450,6 @@ function App() {
           <div className="hero-overlay" />
 
           <div className="hero-content">
-            <div className="eyebrow hero-eyebrow">
-              EXPERIENTIAL × DIGITAL
-            </div>
-
             <h1>
               We create
               <br />
