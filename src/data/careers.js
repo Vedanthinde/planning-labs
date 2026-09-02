@@ -1,0 +1,143 @@
+export const careers = [
+  {
+    id: 1,
+    slug: "business-development-executive",
+    department: "Business Development",
+    location: "Mumbai",
+    type: "Full-time",
+    experience: "1–3 Years",
+    title: "Business Development Executive",
+    shortDescription:
+      "Help build meaningful client relationships and identify opportunities across experiential and digital marketing.",
+    description:
+      "We are looking for a curious and driven Business Development Executive who can understand client requirements, identify opportunities and work closely with internal teams to develop strong proposals.",
+    responsibilities: [
+      "Identify and develop new business opportunities.",
+      "Build and maintain strong client relationships.",
+      "Understand client requirements and translate them into clear briefs.",
+      "Coordinate with creative, experiential and digital teams.",
+      "Prepare presentations, proposals and commercial discussions.",
+      "Maintain regular follow-ups with prospective and existing clients.",
+    ],
+    requirements: [
+      "Strong communication and interpersonal skills.",
+      "Good understanding of marketing and branding.",
+      "Ability to build professional relationships.",
+      "Good presentation and negotiation skills.",
+      "Ability to work in a fast-paced environment.",
+    ],
+  },
+  {
+    id: 2,
+    slug: "graphic-designer",
+    department: "Creative",
+    location: "Mumbai",
+    type: "Full-time",
+    experience: "1–3 Years",
+    title: "Graphic Designer",
+    shortDescription:
+      "Create strong visual communication for campaigns, digital platforms, presentations and brand experiences.",
+    description:
+      "We are looking for a creative Graphic Designer who can turn ideas into compelling visual communication across digital and experiential touchpoints.",
+    responsibilities: [
+      "Develop creative concepts and visual directions.",
+      "Design social media and digital campaign assets.",
+      "Create presentations and marketing collateral.",
+      "Develop visuals for events, exhibitions and brand activations.",
+      "Work closely with creative and account teams.",
+      "Maintain consistency with brand guidelines.",
+    ],
+    requirements: [
+      "Strong visual design and typography skills.",
+      "Working knowledge of Adobe Creative Cloud or equivalent tools.",
+      "Good understanding of layout, composition and branding.",
+      "Strong attention to detail.",
+      "Ability to understand and execute creative briefs.",
+    ],
+  },
+  {
+    id: 3,
+    slug: "social-media-executive",
+    department: "Digital Marketing",
+    location: "Mumbai",
+    type: "Full-time",
+    experience: "0–2 Years",
+    title: "Social Media Executive",
+    shortDescription:
+      "Plan, create and coordinate engaging social media content for brands across multiple platforms.",
+    description:
+      "We are looking for a Social Media Executive who understands digital culture and can help brands communicate consistently and creatively across social platforms.",
+    responsibilities: [
+      "Assist in developing social media calendars.",
+      "Coordinate content creation and publishing.",
+      "Research trends, formats and relevant conversations.",
+      "Write captions and basic social copy.",
+      "Track content performance and prepare reports.",
+      "Coordinate with design and creative teams.",
+    ],
+    requirements: [
+      "Strong written and verbal communication.",
+      "Understanding of major social media platforms.",
+      "Interest in digital marketing and content.",
+      "Creative thinking and attention to detail.",
+      "Basic knowledge of social media analytics.",
+    ],
+  },
+  {
+    id: 4,
+    slug: "web-developer",
+    department: "Technology",
+    location: "Mumbai",
+    type: "Full-time",
+    experience: "0–2 Years",
+    title: "Web Developer",
+    shortDescription:
+      "Build responsive, modern and engaging websites for brands and digital campaigns.",
+    description:
+      "We are looking for a Web Developer who enjoys creating polished digital experiences and working closely with designers and marketing teams.",
+    responsibilities: [
+      "Develop responsive websites and landing pages.",
+      "Convert designs into functional web interfaces.",
+      "Work with frontend and backend technologies.",
+      "Optimize websites for performance and usability.",
+      "Test websites across browsers and devices.",
+      "Collaborate with designers and project teams.",
+    ],
+    requirements: [
+      "Good understanding of HTML, CSS and JavaScript.",
+      "Knowledge of React or another modern frontend framework is a plus.",
+      "Understanding of responsive web design.",
+      "Basic understanding of APIs and databases.",
+      "Strong problem-solving skills.",
+      "Attention to detail.",
+    ],
+  },
+  {
+    id: 5,
+    slug: "event-coordinator",
+    department: "Experiential",
+    location: "Mumbai",
+    type: "Full-time",
+    experience: "0–2 Years",
+    title: "Event Coordinator",
+    shortDescription:
+      "Support the planning and execution of memorable events, activations and brand experiences.",
+    description:
+      "We are looking for an organized Event Coordinator who can support teams through planning, vendor coordination and on-ground execution.",
+    responsibilities: [
+      "Assist with event planning and production.",
+      "Coordinate with vendors and production partners.",
+      "Support venue visits and event preparation.",
+      "Maintain schedules, checklists and production requirements.",
+      "Assist during on-ground event execution.",
+      "Coordinate with internal teams and clients.",
+    ],
+    requirements: [
+      "Strong organizational skills.",
+      "Good communication and coordination abilities.",
+      "Willingness to work on-ground during events.",
+      "Ability to manage multiple tasks.",
+      "Positive and problem-solving attitude.",
+    ],
+  },
+];
